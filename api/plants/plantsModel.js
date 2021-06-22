@@ -29,7 +29,7 @@ async function findById(id) {
 };
 
 async function addPlant(plantData) {
-  return await db('plands').insert(plantData);
+  return await db('plants').insert(plantData);
 };
 
 async function updatePlant(id, updatedPlant) {
