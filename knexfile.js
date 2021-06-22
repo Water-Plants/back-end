@@ -19,7 +19,7 @@ const sharedConfig = {
 module.exports = {
   development: {
     ...sharedConfig,
-    connection: { filename: './data/waterMyPlands.db3' },
+    connection: { filename: './data/waterMyPlants.db3' },
   },
   testing: {
     ...sharedConfig,
@@ -27,6 +27,6 @@ module.exports = {
   },
   production: {
     ...sharedConfig,
-    connection: { filename: './data/waterMyPlands.db3' },
+    connection: { filename: './data/waterMyPlants.db3' },
   },
 };
