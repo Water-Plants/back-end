@@ -1,6 +1,5 @@
 # back-end
 
-<!-- 
 
 User Endpoints
 Most of these endpoints require a user to be logged in, logged in users have an authorization token
@@ -17,5 +16,3 @@ GET       -> BASE URL /:id -> returns specific plants for a user if user id is f
 POST      -> BASE URL /newPlant -> adds a new plant to the database -> MUST PASS IN "nickname", "frequency", and "species"
 PUT       -> BASE URL /editPlant/:id -> edits specified plant
 DELETE    -> BASE URL /deletePlant/:id -> removes selected plant from database
-
--->
